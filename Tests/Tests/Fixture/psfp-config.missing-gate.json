@@ -1,0 +1,33 @@
+{
+  "stream_filters": [
+    {
+      "stream_id": 2001,
+      "match": {
+        "dest_mac": "01:80:C2:00:00:0E",
+        "src_mac": "02:42:AC:11:00:02",
+        "vlan_id": 10,
+        "pcp": 3
+      },
+      "gate_id": 99,
+      "meter_id": 20
+    }
+  ],
+  "stream_gates": [
+    {
+      "gate_id": 10,
+      "gate_enable": true,
+      "drop_when_close": true,
+      "cycle_time_ns": 1000000,
+      "gate_open_ns": 100000,
+      "gate_close_ns": 900000
+    }
+  ],
+  "flow_meters": [
+    {
+      "meter_id": 20,
+      "enable": true,
+      "rate_bps": 1000000,
+      "burst_bytes": 8000
+    }
+  ]
+}

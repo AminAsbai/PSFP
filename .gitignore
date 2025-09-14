@@ -1,0 +1,12 @@
+# Visual Studio cache
+.vs/
+*.vcxproj.user
+
+# Build outputs
+x64/
+*.obj
+*.exe
+*.log
+
+# Other temp
+*.vsidx
