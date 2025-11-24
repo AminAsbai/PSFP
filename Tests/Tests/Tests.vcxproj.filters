@@ -39,9 +39,15 @@
     <ClCompile Include="..\..\Libraries\stream_table\stream_table.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="test_packet_processor.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Unit\test_config_manager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="test_packet_processor.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

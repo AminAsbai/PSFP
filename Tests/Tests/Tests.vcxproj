@@ -129,6 +129,7 @@
     <ClCompile Include="..\..\Libraries\stats\stats.c" />
     <ClCompile Include="..\..\Libraries\stream_table\stream_table.c" />
     <ClCompile Include="test_main.c" />
+    <ClCompile Include="test_packet_processor.c" />
     <ClCompile Include="Unit\test_stream_table.c" />
     <ClCompile Include="Unit\test_stream_table.h" />
     <ClCompile Include="Unit\test_config_manager.c" />
@@ -146,6 +147,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="test_packet_processor.h" />
     <ClInclude Include="Unit\test_config_manager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
