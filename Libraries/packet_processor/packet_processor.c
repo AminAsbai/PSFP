@@ -102,7 +102,7 @@ bool psfp_process_packet(struct stream_table_s* table, const packet_t* pkt) {
     if (!rule) {
         // No matching stream -> drop by default
         stats_update_packet(NULL, false);
-        return false;
+        return true;
     }
 
     // 3) Apply PSFP (gate + meter)
